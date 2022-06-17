@@ -1108,6 +1108,21 @@
     }
 
     &.style2 {
+      //@include dark(#4C3575);
+      background-attachment:  fixed,              fixed;
+      //background-image:   url('images/overlay1.png'),   url('../../images/header.jpg');
+      background-size:    auto,             cover;
+    }
+  }
+
+  .main2 {
+    @include padding(3em, 0);
+
+    &.style1 {
+      background: _palette(bg);
+    }
+
+    &.style2 {
       @include dark(#4C3575);
       background-attachment:  fixed,              fixed;
       background-image:   url('images/overlay1.png'),   url('../../images/header.jpg');
