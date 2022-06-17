@@ -1,6 +1,6 @@
 .navbar-lewagon {
   justify-content: space-between;
-  background: white;
+  background: #4C3575;
   line-height: .5em;
 }
 
@@ -14,4 +14,12 @@
 
 .navbar-toggler {
   font-size: .75rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white !important;
+}
+
+.nav-link {
+  font-size: 12pt;
 }

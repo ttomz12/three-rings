@@ -1101,14 +1101,14 @@
 /* Main */
 
   .main {
-    @include padding(6em, 0);
+    @include padding(3em, 0);
 
     &.style1 {
       background: _palette(bg);
     }
 
     &.style2 {
-      @include dark(#333);
+      @include dark(#4C3575);
       background-attachment:  fixed,              fixed;
       background-image:   url('images/overlay1.png'),   url('../../images/header.jpg');
       background-size:    auto,             cover;
@@ -1121,7 +1121,7 @@
     @include padding(9em, 0, (0,0,_size(element-margin),0));
     @include dark(#4686a0);
     background-attachment:  fixed,              fixed,              fixed;
-    background-image:   url('images/overlay2.png'),   url('images/overlay3.svg'),   linear-gradient(45deg, _palette(accent1-alt) 5%, _palette(accent3-alt) 30%, _palette(accent6-alt));
+    background-image:   url('images/overlay2.png'),   url('images/overlay3.svg'),   linear-gradient(45deg, #F67280 5%, #FC4F4F 15%, _palette(accent6-alt));
     background-position:  top left,           center center,          center center;
     background-size:    auto,             cover,              cover;
     overflow: hidden;
@@ -1212,7 +1212,7 @@
     @include padding(6em, 0, (0,0,_size(element-margin),0));
     @include dark(#4686a0);
     background-attachment:  fixed,              fixed,              fixed;
-    background-image:   url('images/overlay2.png'),   url('images/overlay4.svg'),   linear-gradient(45deg, _palette(accent6-alt), _palette(accent3-alt) 50%, _palette(accent1-alt) 95%);
+    background-image:   url('images/overlay2.png'),   url('images/overlay4.svg'),   linear-gradient(45deg, #F67280 5%, #FC4F4F 15%, _palette(accent6-alt));
     background-position:  top left,           center center,          center center;
     background-size:    auto,             cover,              cover;
     text-align: center;
@@ -1256,7 +1256,7 @@
     /* Header */
 
       #header {
-        @include padding(6em, 0, (0,0,_size(element-margin),0));
+        @include padding(8em, 0, (0,0,_size(element-margin),0));
       }
 
   }
@@ -1545,3 +1545,5 @@
       }
 
   }
+
+
