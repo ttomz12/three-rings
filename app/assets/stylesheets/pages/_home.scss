@@ -171,17 +171,17 @@
   }
 
   h2 {
-    font-size: 2em;
+    font-size: 1.6em;
     line-height: 1.35em;
   }
 
   h3 {
-    font-size: 1.35em;
+    font-size: 1.1em;
     line-height: 1.5em;
   }
 
   h4 {
-    font-size: 1.25em;
+    font-size: 1em;
     line-height: 1.5em;
   }
 
@@ -1108,9 +1108,9 @@
     }
 
     &.style2 {
-      //@include dark(#4C3575);
+      @include dark(#4C3575);
       background-attachment:  fixed,              fixed;
-      //background-image:   url('images/overlay1.png'),   url('../../images/header.jpg');
+      background-image:   url('images/overlay1.png'),   url('../../images/header.jpg');
       background-size:    auto,             cover;
     }
   }
@@ -1123,9 +1123,9 @@
     }
 
     &.style2 {
-      @include dark(#4C3575);
+      ///@include dark(#4C3575);
       background-attachment:  fixed,              fixed;
-      background-image:   url('images/overlay1.png'),   url('../../images/header.jpg');
+      //background-image:   url('images/overlay1.png'),   url('../../images/header.jpg');
       background-size:    auto,             cover;
     }
   }
